@@ -1,4 +1,4 @@
-# 🐣 Fork & Memory in C
+# 🐣 Fork & Memory Copy Demo in C (Process Isolation)
 
 A simple C program demonstrating how `fork()` creates a child process with a **copy** of the parent's memory space — not shared memory. This example highlights how changes in dynamically allocated memory by the child do **not** affect the parent.
 
@@ -38,3 +38,7 @@ A simple C program demonstrating how `fork()` creates a child process with a **c
 gcc -o fork_mem_copy fork_mem_copy.c
 ./fork_mem_copy
 ```
+
+## ⚠️ Academic Disclaimer
+
+This project was developed as an academic work and may contain errors or be incomplete. Use and adapt with caution.
