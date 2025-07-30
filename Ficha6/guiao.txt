@@ -1,0 +1,6 @@
+Os portos 2000 a 2002 do endereço 193.136.63.4, mencionados na ficha, apenas estão acessíveis a partir de máquinas ligadas à rede do ISEP. Alternativamente, pode usar estes ficheiros. São incluídos também os clientes, que poderá usar para ajudar a despistar eventuais problemas na sua implementação dos servidores. 
+
+Os alunos que estiverem a usar plataformas não compatíveis poderão fazer os testes, assim como as compilações dos executáveis para a submissão final, na  máquina ave.dee.isep.ipp.pt. Para tal, deverá copiar os seus ficheiros C para a sua conta do ave ("scp *.c numero_aluno@ave.dee.isep.ipp.pt:" ) e de seguida criar sessões remotas ("ssh numero_aluno@ave.dee.isep.ipp.pt") para poder compilar e testar os programas nessa máquina. Os programas disponibilizados no ficheiro ZIP já se encontram no ave.dee.isep.ipp.pt, no diretório ~jes/public. Por exemplo, para testar o seu programa ./ex3-srv:
+
+(numa sessão ssh, após gerar o executável) ./ex3-srv 3000 (noutra 
+sessão ssh) ~jes/public/ex3-clt localhost 3000
